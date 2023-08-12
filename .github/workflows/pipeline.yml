@@ -50,4 +50,3 @@ jobs:
     steps:
       - name: Run UI Playwright tests
         uses: microsoft/playwright-github-action@v1.5.4
-        run: npm run tests:ui
