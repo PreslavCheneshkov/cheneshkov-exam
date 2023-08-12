@@ -22,5 +22,8 @@ jobs:
         node-version: 14.x
         cache: 'npm'
     - run: npm install
+    - name: npm install
     - run: npm run test:unit
+    - name: Unit tests
     - run: echo cheneshkov
+    - name: Print SoftUni username
